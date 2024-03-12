@@ -1,0 +1,210 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+    * a {
+        text-decoration: none;
+        color: #0D2818;
+    }
+
+footer {
+    margin-top: auto;
+    background-color: #C7F9CC;
+}
+
+    footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+        footer .logo img {
+            height: 25vh;
+        }
+
+    footer .firstIcons {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+        footer .firstIcons ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+            footer .firstIcons ul li {
+                font-size: 20px;
+                margin-left: 10vh;
+                margin-right: 10vh;
+            }
+
+                footer .firstIcons ul li i {
+                    font-size: 25px;
+                    margin-left: -3vh;
+                    padding: 5px;
+                }
+
+    footer .line {
+        margin: 2% auto;
+        width: 70%;
+    }
+
+        footer .line hr {
+            border: 1px solid #0D2818;
+        }
+
+    footer .secandIcons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        footer .secandIcons .pages {
+            margin-left: 12vh;
+        }
+
+            footer .secandIcons .pages ul {
+                margin-top: -3vh;
+                list-style: none;
+                display: flex;
+                gap: 1.5vh;
+            }
+
+                footer .secandIcons .pages ul li:hover {
+                    font-size: 18px;
+                    transition: 0.2s;
+                    border-bottom: 3px solid #0D2818;
+                }
+
+        footer .secandIcons .sosialIcons ul {
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            list-style: none;
+            display: flex;
+            margin-right: 17vh;
+        }
+
+            footer .secandIcons .sosialIcons ul li {
+                margin-left: 3vh;
+            }
+
+                footer .secandIcons .sosialIcons ul li i {
+                    font-size: 20px;
+                }
+
+        footer .secandIcons .copyright {
+            margin-right: 12vh;
+        }
+
+            footer .secandIcons .copyright p {
+                margin-top: -3vh;
+            }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    footer .firstIcons ul li {
+        font-size: 15px;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+        footer .firstIcons ul li i {
+            font-size: 20px;
+            margin-left: -3vh;
+            padding: 5px;
+        }
+
+    footer .secandIcons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        footer .secandIcons .pages {
+            margin-left: 1px;
+        }
+
+            footer .secandIcons .pages ul {
+                margin-top: 0vh;
+                list-style: none;
+                display: flex;
+                gap: 1vh;
+            }
+
+                footer .secandIcons .pages ul li {
+                    width: -moz-max-content;
+                    width: max-content;
+                }
+
+        footer .secandIcons .sosialIcons ul {
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            list-style: none;
+            display: flex;
+            margin-right: 17vh;
+        }
+
+            footer .secandIcons .sosialIcons ul li {
+                margin-left: 3vh;
+            }
+
+                footer .secandIcons .sosialIcons ul li i {
+                    font-size: 17px;
+                }
+
+        footer .secandIcons .copyright p {
+            margin-left: -11.5vh;
+            margin-top: 0vh;
+            width: -moz-max-content;
+            width: max-content;
+        }
+}
+
+
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+
+    footer .firstIcons ul li {
+        font-size: 10px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+        footer .firstIcons ul li i {
+            font-size: 15px;
+            margin-left: -3vh;
+            padding: 5px;
+        }
+
+    footer .secandIcons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        footer .secandIcons .pages {
+            display: none;
+        }
+
+        footer .secandIcons .sosialIcons ul {
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            list-style: none;
+            display: flex;
+            margin-right: 17vh;
+        }
+
+            footer .secandIcons .sosialIcons ul li {
+                margin-left: 3vh;
+            }
+
+                footer .secandIcons .sosialIcons ul li i {
+                    font-size: 15px;
+                }
+
+        footer .secandIcons .copyright p {
+            font-size: 13px;
+            margin-left: -11.5vh;
+            margin-top: 1vh;
+            width: -moz-max-content;
+            width: max-content;
+        }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+﻿<script src="https://kit.fontawesome.com/dc476cd79a.js" crossorigin="anonymous"></script>
+<section class="loginform">
+
+    <div class="logincontent">
+
+
+        <h2>Login</h2>
+        <form action="">
+
+            <input type="text" placeholder="Email adrress">
+            <input type="password" placeholder="Password" id="myInput">
+            <button class="PasswordIcon" onclick="myFunction()"><i class="fa-solid fa-eye-slash"></i></button>
+            <a href="#">Forget Password?</a>
+
+            <button type="submit">Login</button>
+
+            <h3>No account? <a href="#">request membership</a> </h3>
+        </form>
+    </div>
+
+
+
+    <SCript>
+        function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+    </SCript>
+
+
+
+</section>

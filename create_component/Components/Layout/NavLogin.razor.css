@@ -1,0 +1,13 @@
+﻿nav {
+    background-color: #C7F9CC;
+}
+
+    nav .logonav {
+        display: flex;
+        justify-content: center;
+    }
+
+        nav .logonav img {
+            height: 20vh;
+            width: 20vh;
+        }

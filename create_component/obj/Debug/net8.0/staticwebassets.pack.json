@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dalir\\source\\repos\\create_component\\create_component\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\create_component.bundle.scp.css",
+      "PackagePath": "staticwebassets\\create_component.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dalir\\source\\repos\\create_component\\create_component\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\dalir\\source\\repos\\create_component\\create_component\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dalir\\source\\repos\\create_component\\create_component\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dalir\\source\\repos\\create_component\\create_component\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.create_component.props",
+      "PackagePath": "build\\create_component.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.create_component.props",
+      "PackagePath": "buildMultiTargeting\\create_component.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.create_component.props",
+      "PackagePath": "buildTransitive\\create_component.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.create_component.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
